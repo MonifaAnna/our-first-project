@@ -1,0 +1,49 @@
+.main-sec{
+ 
+    height: auto;
+   
+    
+}
+.navbar {
+   height: 80px;
+background-color: transparent;
+
+}
+.navbar-brand{
+    margin-left: 100px;
+}
+.nav-link{
+    margin-left: 20px;
+    font-size: 16px;
+    color:white;
+}
+.btn1{
+    margin-left: 140px;
+    width: 150px;
+}
+.btn2{
+    width: 150px;
+}
+.card-img{
+    filter: blur(3px);
+}
+.home-middle{
+    margin-left: 110px;
+    margin-top: 170px;
+}
+
+.second-sec{
+    height: 300px;
+}
+.card-id{
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 480px;
+}
+.middle-div-1{
+    margin-left: 100px;
+    font-size: 20px;
+}
+.middle-div-2{
+    margin-left: 90px;
+}
