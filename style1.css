@@ -33,6 +33,8 @@ background-color: transparent;
 .home-middle{
     margin-left: 110px;
     margin-top: 170px;
+    width: 500px;
+   
 }
 
 
@@ -47,4 +49,10 @@ background-color: transparent;
 }
 .middle-div-2{
     margin-left: 90px;
+}
+.pic-1{
+    margin-left: 200px;
+    margin-top: 140px;
+    width: 500px;
+  
 }
