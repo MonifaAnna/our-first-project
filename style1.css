@@ -27,14 +27,15 @@ background-color: transparent;
 .card-img{
     filter: blur(3px);
 }
+.card-img2{
+    filter: blur(8px);
+}
 .home-middle{
     margin-left: 110px;
     margin-top: 170px;
 }
 
-.second-sec{
-    height: 300px;
-}
+
 .card-id{
     margin-left: 100px;
     margin-top: 100px;
