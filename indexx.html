@@ -6,6 +6,7 @@
     <title>Project-professional-1</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/8f33cc90db.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style1.css">
   </head>
   <body>
@@ -59,13 +60,13 @@
                   </div>
                 </nav>
                 <div class="d-flex">
-                <div class="home-middle">
+                <div class="home-middle"  data-aos="zoom-in">
                   <h1 class="mb-3">Welcome to Restaurantly </h1>
                   <p class="mb-4">Delivering great food for more than 18 years!</p>
                   <button type="button" class="btn btn-outline-warning rounded-pill btn2">Warning</button>
                   <button type="button" class="btn btn-outline-warning rounded-pill ms-5 btn2">Warning</button>
                 </div>
-                <div class="pic-1">
+                <div class="pic-1 " data-aos="fade-right">
                   <img src="p4.jpg" class="w-100 rounded-pill" alt="">
                 </div>
               </div>
@@ -78,7 +79,9 @@
         <img src="p6.jpg" class="card-img card-img2" alt="...">
         <div class="card-img-overlay mt-5">
           <div class="d-flex mt-5">
-            <div class="middle-div-1">
+            <div class="middle-div-1" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, vel.</h3>
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur autem nam libero enim laborum id adipisci distinctio sed in praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. io esse fugiat iure omnis maxime soluta delectus. Voluptate ducimus nisi molestiae excepturi numquam necessitatibus natus aut, ad veritatis consequatur aliquid illum aliquam ut hic nobis quae.</p>
               <p><i class="fa-solid fa-star text-warning"></i> Quod cumque quaerat consectetur nobis mollitia, excepturi, sequi reprehenderit, placeat quis cupiditate sed exercitationem deleniti distinct</p>
@@ -86,8 +89,8 @@
               <p><i class="fa-solid fa-star text-warning"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni placeat iusto asperiores est excepturi consequatur ipsum possimus praesentium maxime?</p>
               <p><i class="fa-solid fa-star text-warning"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni placeat iusto asperiores est excepturi consequatur ipsum possimus praesentium maxime?</p>
             </div>
-            <div class="middle-div-2">
-              <img src="p8.jpg" class="w-75 rounded border border-5 border-warning-subtle" alt="">
+            <div class="middle-div-2"  data-aos="zoom-out">
+              <img src="p8.jpg" class="w-50 rounded border border-5 border-warning-subtle" alt="">
             </div>
           </div>  
             
@@ -95,7 +98,141 @@
       </div>
     </div>
      </section>
+     <section class="bg-dark">
+      <div class="p-5">
+        <p class="text-secondary ms-5 ">why us.............</p>
+        <h1 class="text-warning ms-5">Why Choose Our Restaurant</h1>
+      </div>
+     
+      <div class="d-flex ps-5 pb-5">
+       
+        <div class="box" data-aos="zoom-in-right">
+          <h1>01</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint consequuntur dolorum sit tenetur praesentium doloremque quo vero. Ullam, cum?</p>
+        </div>
+        <div class="box" data-aos="zoom-out">
+          <h1>01</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint consequuntur dolorum sit tenetur praesentium doloremque quo vero. Ullam, cum?</p>
+        </div>
+        <div class="box" data-aos="zoom-in-left">
+          <h1>01</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem sint consequuntur dolorum sit tenetur praesentium doloremque quo vero. Ullam, cum?</p>
+        </div>
+      </div>
+     </section>
+     <section class="line-sec">
+      <div class="p-5" data-aos="zoom-in-right">
+        <p class="text-secondary ms-5">Menu</p>
+        <h1 class="text-warning ms-5">Check Our Tasty Menu</h1>
+      </div>
+      <div class="d-flex justify-content-center" data-aos="zoom-out">
+        <li class="nav-item">
+          <a class="nav-link" href="#line">All</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#line2">Starters</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Salads</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Specially</a>
+        </li>
+      </div>
+      <div class="d-flex">
+      <div data-aos="zoom-in-right">
+        <div class="line-div ps-5 pt-5 ms-5 d-flex" id="line " id="line2">
+          <img src="pp1.jpg" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light"><span class="hover">Mozzarella Stick</span><span>.............................................................................</span><span class="text-warning">$8.95</span>
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+        <div class="line-div ps-5 pt-3 ms-5 d-flex" id="line">
+          <img src="pp3.png" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light"><span class="hover">Mozzarella Stick</span> .............................................................................$8.95
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+        <div class="line-div ps-5 pt-3  ms-5 d-flex" id="line line2">
+          <img src="pp7.png" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light">Mozzarella Stick.............................................................................$8.95
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+        <div class="line-div ps-5 pt-3  ms-5 d-flex" id="line lin2">
+          <img src="pp5.png" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light">Mozzarella Stick.............................................................................$8.95
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+        <div class="line-div ps-5 pt-3 ms-5 d-flex" id="line">
+          <img src="pp6.png" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light">Mozzarella Stick.............................................................................$8.95
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+      </div>
+      <div class="ms-5" data-aos="zoom-in-left">
+        <div class="line-div ps-5 pt-5 ms-5 d-flex" id="line">
+          <img src="pp10.png" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light">Mozzarella Stick...................................................................................................$8.95
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+        <div class="line-div ps-5 pt-3 ms-5 d-flex" id="line">
+          <img src="pp9.png" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light">Mozzarella Stick......................................................................................................$8.95
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+        <div class="line-div ps-5 pt-3 ms-5 d-flex" id="line">
+          <img src="pp11.jpg" class=" rounded-circle images border border-5 border-warning-subtle" alt="">
+          <div class="ms-3 mt-4">
+            <h6 class="text-light">Mozzarella Stick....................................................................................................$8.95
+              </h6>
+              <p class="text-secondary">Lorem, deren, trataro, filede, nerada</p>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+     </section>
+     <section class="bg-black">
+      <div class="p-5 ms-5">
+        <p class="text-secondary">SPECIALS</p>
+        <h1 class="text-warning">Check Our Specials</h1>
+      </div>
+     </section>
+     
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
