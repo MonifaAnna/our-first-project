@@ -87,6 +87,7 @@ background-color: transparent;
  }
  .hover:hover{
     color:#cda45e;
+    text-underline-position: below;
  }
  .specials{
     width: 300px;
@@ -191,4 +192,13 @@ color:white;
     width: 400px;
     height: 300px;
    
+}
+.chef-sec{
+    height: 700px
+}
+.block3{
+    width: 400px;
+    height: 300px;
+    margin-left: 80px;
+    
 }
