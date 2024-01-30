@@ -83,8 +83,9 @@ background-color: transparent;
  .specials{
     width: 300px;
     height: 300px;
-   
+   margin-top: 100px;
     margin-left: 100px;
+   
  }
 .speciall{
     height: 60px;
@@ -96,4 +97,14 @@ background-color: transparent;
 .pic-special{
     width: 340px;
     height: 340px;
+    margin-right: 40px;
+}
+.sppecial{
+    height: 100px;
+    width: 500px;
+}
+.ps-0{
+    margin-right:;
+
+    margin-top: 60px;
 }
