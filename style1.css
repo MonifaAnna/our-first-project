@@ -80,3 +80,12 @@ background-color: transparent;
  .hover:hover{
     color:#cda45e;
  }
+ .specials{
+    width: 300px;
+    height: 300px;
+   
+    margin-left: 100px;
+ }
+ .special:hover{
+    color:#cda45e;
+ }
