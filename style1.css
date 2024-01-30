@@ -153,3 +153,25 @@ height: 50px;
 font-size: 20px;
 color:white;
 }
+.about-us{
+    background-color: #1a1814;
+}
+.aboutus{
+    width: 1200px;
+    height: 400px;
+    background-color: #1a1814;
+    margin-left: 160px;
+}
+.comma{
+    width: 30px;
+    height: 30px;
+}
+.testi{
+    margin-left: 120px;
+}
+.card{
+    background-color: #261e0f;
+}
+.second-caro{
+    margin-left: 100px;
+}
