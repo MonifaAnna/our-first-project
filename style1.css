@@ -86,6 +86,14 @@ background-color: transparent;
    
     margin-left: 100px;
  }
- .special:hover{
-    color:#cda45e;
- }
+.speciall{
+    height: 60px;
+    background-color:#cda45e; ;
+}
+.food{
+    margin-top: 100px;
+}
+.pic-special{
+    width: 340px;
+    height: 340px;
+}
