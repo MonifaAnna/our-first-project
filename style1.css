@@ -104,7 +104,7 @@ background-color: transparent;
     width: 500px;
 }
 .ps-0{
-    margin-right:;
+  
 
     margin-top: 60px;
 }
@@ -124,4 +124,32 @@ background-color: transparent;
   
     margin-left: 480px;
     text-align: start;
+}
+.input{
+    width: 370px;
+    background-color: #060605;
+    color: gray;
+    height: 60px;
+    font-size: 20px;
+    padding: 20px;
+    
+   
+}
+ .message{
+    width:1260px;
+    height: 150px;
+    margin-left: 120px;
+    background-color: #060605;
+    color: gray;
+  
+    font-size: 20px;
+    padding: 20px;
+}
+.book-btn{
+margin-left: 700px;
+width: 160px;
+margin-top: 40px;
+height: 50px;
+font-size: 20px;
+color:white;
 }
