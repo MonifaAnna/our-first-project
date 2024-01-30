@@ -108,3 +108,18 @@ background-color: transparent;
 
     margin-top: 60px;
 }
+.caro{
+    width: 600px;
+    height: 600px;
+}
+.caro-pic{
+    width: 600px;
+    background-color: azure;
+}
+.carousel-caption{
+    margin-bottom: 80px;
+    width: 600px;
+    height: 500px;
+    background-color: rgb(37, 137, 137);
+    margin-left: 380px;
+}
