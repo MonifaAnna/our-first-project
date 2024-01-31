@@ -207,3 +207,51 @@ iframe{
     height: 400px;
     margin-top: 40px;
 }
+.icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.location{
+    margin-left: 110px;
+}
+.input1{
+    width: 390px;
+    background-color: #060605;
+    color: gray;
+    height: 50px;
+    font-size: 20px;
+    padding: 20px;
+    
+   
+}
+ .message1{
+    width:800px;
+    height: 150px;
+    margin-left: 120px;
+    background-color: #060605;
+    color: gray;
+  
+    font-size: 20px;
+    padding: 20px;
+}
+.book-btn1{
+    margin-left: 480px;
+    width: 160px;
+    margin-top: 40px;
+    height: 50px;
+    font-size: 20px;
+    color:white;
+    }
+    .input2{
+        width: 800px;
+        background-color: #060605;
+        color: gray;
+        height: 50px;
+        font-size: 20px;
+        padding: 20px;
+        margin-left: 120px;
+        
+    }
