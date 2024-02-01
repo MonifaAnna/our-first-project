@@ -1,16 +1,20 @@
+/* main-section */
 .main-sec{
  
     height: auto;
    
     
 }
+/* Navbar section */
 .navbar {
    height: 80px;
 background-color: transparent;
 
 
 }
-
+.card-img{
+    filter: blur(3px);
+}
 .navbar-brand{
     margin-left: 100px;
 }
@@ -23,11 +27,15 @@ background-color: transparent;
     margin-left: 140px;
     width: 150px;
 }
+/* Main Walpaper */
 .btn2{
     width: 150px;
 }
-.card-img{
-    filter: blur(3px);
+.pic-1{
+    margin-left: 200px;
+    margin-top: 140px;
+    width: 500px;
+  
 }
 .card-img2{
     filter: blur(8px);
@@ -60,12 +68,7 @@ background-color: transparent;
     
     width: 1600px;
 }
-.pic-1{
-    margin-left: 200px;
-    margin-top: 140px;
-    width: 500px;
-  
-}
+
 .box{
     padding: 50px 30px;
     box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
@@ -193,8 +196,8 @@ color:white;
     transition: width 2s,height 4s;
 }
 .transform .block:hover{
-    width: 600px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
 }
 
 
