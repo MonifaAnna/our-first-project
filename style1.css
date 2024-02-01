@@ -206,12 +206,71 @@ color:white;
 .chef-sec{
     height: 700px
 }
-.block3{
-    width: 400px;
-    height: 300px;
-    margin-left: 80px;
+/* Chef-sec with hover */
+.container {
+    position: relative;
+    width: 25%;
+   
     
-}
+  }
+  #margin{
+    margin-left: 120px;
+  }
+  #margin2{
+    margin-left: -20px;
+  }
+  #margin3{
+    margin-left: -20px;
+  }
+  #space1{
+    margin-left: 10px;
+  }
+  #space2{
+    margin-left: -50px;
+  }
+  #space3{
+    margin-left: -50px;
+  }
+  
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align:center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.5;
+
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+ 
+    
+  }
+  
+  .text {
+  
+    color:aliceblue;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
 iframe{
     width: 100%;
     height: 400px;
@@ -300,14 +359,25 @@ background-color: #1a1814;
     font-style: oblique;
 
  }
- .tran{
-    transition: width 2s,height 4s;
-}
-.tran img h1:hover{
-    width: 600px;
-    height: 800px;
-    background-color: #cda45e;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
