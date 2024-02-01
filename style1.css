@@ -107,10 +107,7 @@ background-color: transparent;
     margin-left: 100px;
    
  }
-.speciall{
-    height: 60px;
-    background-color:#c68007; ;
-}
+
 .food{
     margin-top: 100px;
 }
@@ -360,7 +357,7 @@ background-color: #1a1814;
         width: 150px;
         height: 52px;
         color: white;
-        background-color: #d18e1a;
+      
         margin-left: -160px;
         margin-top: 17px;
         font-size: 20px;
