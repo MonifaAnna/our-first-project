@@ -1,10 +1,12 @@
 /* main-section */
 .main-sec{
  
-    height: auto;
-   
-    
+    height: auto; 
 }
+.frontstyle{
+    font-style: oblique;
+
+ }
 /* Navbar section */
 .navbar {
    height: 80px;
@@ -37,9 +39,7 @@ background-color: transparent;
     width: 500px;
   
 }
-.card-img2{
-    filter: blur(8px);
-}
+
 .home-middle{
     margin-left: 110px;
     margin-top: 170px;
@@ -52,6 +52,10 @@ background-color: transparent;
     margin-left: 100px;
     margin-top: 100px;
     height: 480px;
+}
+/* About section */
+.card-img2{
+    filter: blur(8px);
 }
 .middle-div-1{
     margin-left: 100px;
@@ -68,7 +72,7 @@ background-color: transparent;
     
     width: 1600px;
 }
-
+/* why us section */
 .box{
     padding: 50px 30px;
     box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
@@ -81,6 +85,7 @@ background-color: transparent;
  .box:hover{
    background-color:rgb(203, 140, 12);
  }
+ /* Menu Section */
  .line-sec{
     background: #1a1814;
     
@@ -94,6 +99,7 @@ background-color: transparent;
     color:#cda45e;
     text-underline-position: below;
  }
+ /* Special Section */
  .specials{
     width: 300px;
     height: 300px;
@@ -122,6 +128,7 @@ background-color: transparent;
 
     margin-top: 60px;
 }
+/* Event Section */
 .caro{
     width: 600px;
     height: 500px;
@@ -139,6 +146,7 @@ background-color: transparent;
     margin-left: 480px;
     text-align: start;
 }
+/* Book A Table */
 .input{
     width: 370px;
     background-color: #060605;
@@ -167,6 +175,7 @@ height: 50px;
 font-size: 20px;
 color:white;
 }
+/* Testimonilas Slider */
 .about-us{
     background-color: #1a1814;
 }
@@ -186,7 +195,7 @@ color:white;
 .card{
     background-color: #261e0f;
 }
-
+/* Gellary section */
 .block{
     width: 400px;
     height: 300px;
@@ -273,22 +282,17 @@ color:white;
     font-size: 20px;
     padding: 16px 32px;
   }
-
+/* location sec */
 iframe{
     width: 100%;
     height: 400px;
     margin-top: 40px;
 }
-.icon{
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
-   
-}
+
 .location{
     margin-left: 110px;
 }
+/* contact sec form */
 .location-sec {
 background-color: #1a1814;
 }
@@ -300,6 +304,13 @@ background-color: #1a1814;
     font-size: 20px;
     padding: 20px;
     
+   
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
    
 }
  .message1{
@@ -332,6 +343,7 @@ background-color: #1a1814;
         margin-left: 120px;
         
     }
+    /* last-one-section */
     .ico{
         width: 25px;
         height: 25px;
@@ -348,20 +360,18 @@ background-color: #1a1814;
         width: 150px;
         height: 52px;
         color: white;
-        background-color: #cda45e;
+        background-color: #d18e1a;
         margin-left: -160px;
         margin-top: 17px;
         font-size: 20px;
      }
+     /* footer */
  .footer{
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
  }
-  .frontstyle{
-    font-style: oblique;
-
- }
+ 
 
 
 
