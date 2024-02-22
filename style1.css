@@ -12,12 +12,18 @@
 /* Navbar section */
 .navbar {
    height: 80px;
-background-color: transparent;
-
-
-
-
+  
+background-color: green;
 }
+/* Responsive */
+@media only screen and (max-width:600px){
+    .navbar{
+        width: 500px;
+        
+        
+    }
+}
+
 .card-img{
     filter: blur(3px);
 }
