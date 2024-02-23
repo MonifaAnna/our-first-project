@@ -12,17 +12,48 @@
 /* Navbar section */
 .navbar {
    height: 80px;
-  
-background-color: green;
+ 
 }
 /* Responsive */
+/* Mobile */
 @media only screen and (max-width:600px){
     .navbar{
-        width: 500px;
+        width: 600px;
+        background-color: #d98a02; 
+    }
+    .btn1{
+        margin-left:-100px;
+        width: 80px;
+        font-size: 17px;
+     
+    }
+    .navbar-nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        display: none;
+    }
+    .nav-link{
+        margin-left:0px;
+        font-size: 10px;
+        color:white;
+    
+    }
+}
+/* Tab */
+@media only screen and (min-width:601px)and (max-width:800px){
+    .navbar{
+        width: 700px;
+        background-color: red;
         
         
     }
+    .navbar-nav{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        display: none;
+    }
 }
+
 
 .card-img{
     filter: blur(3px);
@@ -63,7 +94,110 @@ background-color: green;
     margin-top: 100px;
     height: 480px;
 }
+/* Responsive */
+/* mobile */
+@media only screen and (max-width:600px){
+    .home-middle{
+        margin-left:10px;
+        margin-top: 50px;
+        width: 500px;
+       
+    }
+    .pic-1{
+        margin-left:50px;
+        margin-top: 50px;
+        width: 500px;
+      
+    }
+    .bttnn{
+        display: flex;
+    }
+    .btn2{
+        width:100px;
+        height: 30px;
+        font-size: 10px;
+        
+    }
+    /* .mainn{
+        height: 600px;
+    }
+    */
+}
+/* tab */
+@media only screen and (min-width:601px)and (max-width:800px){
+    .home-middle{
+        margin-left:10px;
+        margin-top: 50px;
+        width: 500px;
+       
+       
+    }
+    .pic-1{
+        margin-left:50px;
+        margin-top: 50px;
+        width: 500px;
+      
+    }
+    .bttnn{
+        display: flex;
+    }
+    .btn2{
+        width:120px;
+        height: 40px;
+        font-size: 10px;
+        
+    }
+    
+}
 /* About section */
+/* Responsive */
+/* mobile */
+@media only screen and (max-width:600px){
+    .middle-div-1{
+        margin-left:10px;
+        font-size:5px;
+
+        padding:15px;
+        width:250px;
+        height: 200px;
+        background-color: #d902c0;
+        display: none;
+    }
+    .middle-pic{
+        width:50%;
+        height:50%;
+    }
+    .middle-div-2{
+        width:100px;
+        height: 200px;
+        background-color: #d98a02;
+        display: none;
+    }
+}
+/* Tap */
+@media only screen and (min-width:601px) and (max-width:800px){
+    .middle-div-1{
+        margin-left:10px;
+        font-size:5px;
+
+        padding:15px;
+        width:250px;
+        height: 200px;
+        background-color: #d902c0;
+        display: none;
+    }
+    .middle-pic{
+        width:50%;
+        height:50%;
+    }
+    .middle-div-2{
+        width:100px;
+        height: 200px;
+        background-color: #d98a02;
+        display: none;
+    }
+}
+
 .card-img2{
     filter: blur(8px);
 }
@@ -82,7 +216,46 @@ background-color: green;
     
     width: 1600px;
 }
+
 /* why us section */
+/* Responsive */
+/* mble */
+@media only screen and (max-width:600px){
+    .boox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box{
+        height: 100px;
+    width: 150px;
+    background: #1a1814;
+    color: bisque;
+   
+    font-size: 5px;
+    }
+}
+/* Tap*/
+@media only screen and (min-width:601px)and (max-width:800px){
+    .boox{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .box{
+        height: 100px;
+    width: 180px;
+    background: #1a1814;
+    color: bisque;
+    font-size:10px;
+    }
+}
+/* Dasktop */
+    @media only screen and (min-width:801px){
+        .boox{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+
 .box{
     padding: 50px 30px;
     box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
@@ -97,11 +270,30 @@ background-color: green;
    color: #060605;
  }
  /* Menu Section */
+ /* Responsive */
+ /* dasktop */
+ @media only screen and (min-width:801px){
+    .menuu{
+        display:flex;
+    }
+
+ }
+  /* tap*/
+  @media only screen and (min-width:601) and (max-width:800){
+    .menuu{
+        
+    }
+    
+ }
+  /* mobile*/
+  @media only screen and (max-width:600px){
+    .menuu{
+        
+    }
+    
+ }
  .line-sec{
     background: #1a1814;
- 
-
-    
  }
 
  .images{
@@ -113,6 +305,31 @@ background-color: green;
     text-underline-position: below;
  }
  /* Special Section */
+ /* Responsive */
+ /* dasktop */
+ @media only screen and (min-width:801px){
+    .specialss{
+        display:flex;
+    }
+    .foodds{
+        display:flex;
+    }
+    .ps-0{
+        margin-top: 60px;
+    }
+
+ }
+ @media only screen and (max-width:600px){
+    .ps-0{
+        margin-top:10px;
+        
+    }
+    .pic-special{
+        width:140px;
+        height:140px;
+        margin-right:20px;
+    }
+ }
 
  .specials{
     width: 300px;
@@ -159,6 +376,12 @@ background-color: green;
     margin-top: 60px;
 }
 /* Event Section */
+ /* Responsive */
+ /* dasktop */
+ @media only screen and (min-width:801px){
+   .hight{
+    height: 50%;
+   }
 .caro{
     width: 600px;
     height: 500px;
@@ -169,16 +392,157 @@ background-color: green;
     margin-left: 90px;
 }
 .carousel-caption{
-    margin-bottom: px;
+    
     width: 600px;
     height: 500px;
   
     margin-left: 480px;
     text-align: start;
 }
-/* Book A Table */
+ }
+ /*tap */
+ @media only screen and (min-width:601px)and (max-width:800px){
+    .hight{
+     height: 500px;
+    }
+    .caro{
+     width:200px;
+     height:200px;
+ }
+ .caro-pic{
+     width: 300px;
+ 
+     margin-left:1px;
+ }
+ .carousel-caption{
+     font-size: 5px;
+     width: 200px;
+     height:400px;
+     background-color: #d902c0;
+     margin-left:120px;
+     color:white;
+ }
+ 
+ 
+  }
+ /*Mobile */
+ @media only screen and (max-width:600px){
+   .hight{
+    height: 500px;
+   }
+   .caro{
+    width:200px;
+    height:200px;
+}
+.caro-pic{
+    width: 300px;
 
-.input{
+    margin-left:1px;
+}
+.carousel-caption{
+    font-size: 5px;
+    width: 200px;
+    height:400px;
+    background-color: #d902c0;
+    margin-left:120px;
+    color:white;
+}
+
+
+ }
+
+/* Book A Table */
+/* Responsive */
+/* Dasktop */
+@media only screen and (min-width:801px){
+    .input{
+        width: 370px;
+        background-color: #060605;
+        color: gray;
+        height: 60px;
+        font-size: 20px;
+        padding: 20px;
+        margin-left: 50px;
+       
+    }
+     .message{
+        width:1300px;
+        height: 150px;
+        margin-left: 100px;
+        background-color: #060605;
+        color: gray;
+      
+        font-size: 20px;
+        padding: 20px;
+    }
+    .book-btn{
+    margin-left: 700px;
+    width: 160px;
+    margin-top: 40px;
+    height: 50px;
+    font-size: 20px;
+    color:white;
+    }
+}
+/*  tap */
+@media only screen and (min-width:601px) and (max-width:800px){
+    .input{
+        width: 150px;
+        background-color: #060605;
+    color: gray;
+    height: 30px;
+    font-size: 8px;
+    padding: 3px;
+    }
+    .message{
+        width:550px;
+        height: 50px;
+        margin-left:45px;
+        background-color: #060605;
+        color: gray;
+      
+        font-size: 10px;
+        padding: 7px;
+    }
+    .book-btn{
+        margin-left: 280px;
+        width: 150px;
+        margin-top: 30px;
+        height: 30px;
+        font-size: 15px;
+        color:white;
+        } 
+}
+/* Mobile */
+@media only screen and (max-width:600px){
+    .input{
+        width: 100px;
+        background-color: #060605;
+    color: gray;
+    height: 30px;
+    font-size: 8px;
+    padding: 3px;
+    }
+    .message{
+        width:430px;
+        height: 50px;
+        margin-left:25px;
+        background-color: #060605;
+        color: gray;
+      
+        font-size: 10px;
+        padding: 7px;
+    }
+    .book-btn{
+        margin-left: 180px;
+        width: 80px;
+        margin-top: 20px;
+        height: 30px;
+        font-size: 8px;
+        color:white;
+        } 
+} 
+/* .input{
     width: 370px;
     background-color: #060605;
     color: gray;
@@ -205,9 +569,128 @@ margin-top: 40px;
 height: 50px;
 font-size: 20px;
 color:white;
-}
+} */
 /* Testimonilas Slider */
-.about-us{
+/* Responsive */
+/* Dasktop */
+@media only screen and (min-width:801px){
+    .flexx{
+        display: flex;
+        margin-left: 40px;
+        
+    }
+    .dflex{
+        display: flex;
+        margin-left: 120px;
+    }
+    .about-us{
+        background-color: #1a1814;
+    }
+    .aboutus{
+        width: 1200px;
+        height: 450px;
+        background-color: #1a1814;
+        margin-left: 160px;
+    }
+    .comma{
+        width: 30px;
+        height: 30px;
+    }
+    .testi{
+        width: 80px;
+        margin-left: 120px;
+    }
+    .cards{
+        margin-left: 50px;
+        width: 350px;
+        background-color: #261e0f;
+    }
+    .ffelx{
+        margin-bottom:0px;
+    }
+}
+/* tap */
+@media only screen and (min-width:601px) and (max-width:800px){
+    .about-us{
+        background-color: #1a1814;
+    }
+    .flexx{
+        margin-left:85px ;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .dflex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:85px ;
+    }
+    .aboutus{
+        width: 400px;
+        height: 480px;
+        background-color: #171616;
+        margin-left:30px ;
+    
+    }
+    .comma{
+        width: 10px;
+        height: 10px;
+    }
+    .ffelx{
+        display:flex;
+        margin-right: 20px;
+    }
+    .testi{
+        width: 50px;
+        margin-left:50px;
+    }
+    .cards{
+        font-size:8px;
+        width: 210px;
+        height: 80px;
+        background-color: #170e03;
+    }
+}
+/* MObile */
+@media only screen and (max-width:600px){
+    .about-us{
+        background-color: #1a1814;
+    }
+    .flexx{
+        margin-left:55px ;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .dflex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:55px ;
+    }
+    .aboutus{
+        width: 400px;
+        height: 480px;
+        background-color: #171616;
+        margin-left:30px ;
+    
+    }
+    .comma{
+        width: 10px;
+        height: 10px;
+    }
+    .ffelx{
+        display:flex;
+    }
+    .testi{
+        width: 40px;
+        margin-left:10px;
+    }
+    .cards{
+        font-size:8px;
+        width: 240px;
+        height: 80px;
+        background-color: #170e03;
+    }
+}
+/* .about-us{
     background-color: #1a1814;
 }
 .aboutus{
@@ -223,32 +706,38 @@ color:white;
 .testi{
     margin-left: 120px;
 }
-.card{
+.cards{
     background-color: #261e0f;
-}
+} */
 /* Gellary section */
-.block{
-    width: 400px;
-    height: 300px;
+/* Responsive */
+/* Dasktop */
+@media only screen and (min-width:801px){
+    .block{
+        width: 400px;
+        height: 300px;
     
+        
+    }
+    .transform{
+        transition: width 2s,height 4s;
+    }
+    .transform .block:hover{
+        width: 410px;
+        height: 410px;
+    }
 }
-.transform{
-    transition: width 2s,height 4s;
-}
-.transform .block:hover{
-    width: 450px;
-    height: 450px;
-}
+    
+    .block1{
+        width: 400px;
+        height: 300px;
+       
+    }
+    .chef-sec{
+        height: 700px
+    }
 
 
-.block1{
-    width: 400px;
-    height: 300px;
-   
-}
-.chef-sec{
-    height: 700px
-}
 /* Chef-sec with hover */
 .container {
     position: relative;
