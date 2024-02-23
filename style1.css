@@ -719,6 +719,11 @@ color:white;
     
         
     }
+    .chef-sec{
+        
+        background-color: #170e03;
+        
+    }
     .transform{
         transition: width 2s,height 4s;
     }
